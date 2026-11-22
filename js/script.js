@@ -17,7 +17,7 @@ let contador = 0;
 total.textContent = contador;
 
 soma.addEventListener("click", ()=>{
-    contador =+ 1
+    contador++
     total.textContent = contador
 })
 
